@@ -4,7 +4,7 @@ import pandas as pd
 
 model = pickle.load(open('heartfailure_predict.sav', 'rb'))
 
-st.title("Prediksi Kematian")
+st.title("Prediksi Kematian Akibat Gagal Jantung")
 
 # Membagi visualisasi menjadi 2 kolom
 col1, col2= st.columns(2)
